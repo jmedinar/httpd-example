@@ -7,6 +7,8 @@ The application serves a single static html page via httpd.
 To build and run the application and deploy on OpenShift, assuming you have a
 working `oc` command line environment connected to your cluster already:
 
-`$ oc new-app centos/httpd-24-centos7~https://github.com/sclorg/httpd-ex`
+`$ oc new-app centos/httpd-24-centos7~https://github.com/jmedinar/httpd-example.git`
+or 
 
-odo create httpd --git https://github.com/openshift/httpd-ex.git
+`odo create httpd --git https://github.com/jmedinar/httpd-example.git`
+
